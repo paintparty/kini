@@ -1,7 +1,7 @@
 /*! kini (alpha) | github.com/paintparty/kini  */
 
 
-/* `align-items` */ 
+/* `align-items` */
 
 .ai-b {align-items: baseline}
 .ai-c {align-items: center}
@@ -12,7 +12,7 @@
 .ai-s {align-items: start}
 
 
-/* `background-color` */ 
+/* `background-color` */
 
 .bgc-navy+ {background-color: #001F3F}
 .bgc-blue+ {background-color: #0074D9}
@@ -55,7 +55,7 @@
 
 
 /* `background-position` */
-/* Combinatorial `background` utilities */ 
+/* Combinatorial `background` utilities */
 
 .bgp-b {background-position: bottom}
 .bgp-c {background-position: center}
@@ -66,7 +66,7 @@
 .bgi-contain {background-position: center center; background-size: contain; background-repeat: no-repeat; width: 100%; height: 100%}
 
 
-/* `background-repeat` */ 
+/* `background-repeat` */
 
 .bgr-nr {background-repeat: no-repeat}
 .bgr-rx {background-repeat: repeat-x}
@@ -76,7 +76,7 @@
 
 
 /* `border-color` */
-/* Combinatorial `bordered` utility */ 
+/* Combinatorial `bordered` utility */
 
 .bc-navy+ {border-color: #001F3F}
 .bc-blue+ {border-color: #0074D9}
@@ -120,8 +120,10 @@
 
 
 /* `border-radius` -> `radius`(non-normative) utilities: `radius-100%`, `radius-50%`, `radius-pill` */
-/* `border-radius` property -> `radius`(non-normative) , 0px ←→ 30px, in increments of 1px */ 
+/* `border-radius` property -> `radius`(non-normative) , 0px ←→ 30px, in increments of 1px */
+/* `border-radius` property , 50% ←→ 100%, in increments of 50% */
 
+.radius-0 {border-radius: 0}
 .radius-0px {border-radius: 0px}
 .radius-100\% {border-radius: 100%}
 .radius-10px {border-radius: 10px}
@@ -158,7 +160,7 @@
 .radius-9px {border-radius: 9px}
 
 
-/* `border-style` */ 
+/* `border-style` */
 
 .bs-d {border-style: dotted}
 .bs-g {border-style: groove}
@@ -171,7 +173,7 @@
 
 
 /* `bottom` property , 0% ←→ 100%, in increments of 5% */
-/* `bottom` property , 0px ←→ 30px, in increments of 1px */ 
+/* `bottom` property , 0px ←→ 30px, in increments of 1px */
 
 .bottom-0 {bottom: 0}
 .bottom-0\% {bottom: 0%}
@@ -228,13 +230,13 @@
 .bottom-9px {bottom: 9px}
 
 
-/* `box-sizing` - declarative */ 
+/* `box-sizing` - declarative */
 
 .border-box {box-sizing: border-box}
 .content-box {box-sizing: content-box}
 
 
-/* `color` - declarative */ 
+/* `color` - declarative */
 
 .navy+ {color: #001F3F}
 .blue+ {color: #0074D9}
@@ -276,7 +278,7 @@
 .yellow {color: yellow}
 
 
-/* `cursor` - declarative */ 
+/* `cursor` - declarative */
 
 .crosshair {cursor: crosshair}
 .help {cursor: help}
@@ -286,7 +288,7 @@
 .zoom-in {cursor: zoom-in}
 
 
-/* `display` - declarative */ 
+/* `display` - declarative */
 
 .block {display: block}
 .flex {display: flex}
@@ -301,7 +303,7 @@
 .table {display: table}
 
 
-/* `blur` */ 
+/* `blur` */
 
 .blur-1px {filter: blur(1px)}
 .blur-2px {filter: blur(2px)}
@@ -311,7 +313,7 @@
 
 
 /* `flex-direction` */
-/* Combinatorial Flexbox utility classes */ 
+/* Combinatorial Flexbox utility classes */
 
 .flex-c-sa {flex-direction: column; justify-content: space-around; display: flex}
 .flex-c-se {flex-direction: column; justify-content: space-evenly; display: flex}
@@ -331,14 +333,14 @@
 .fd-rr {flex-direction: row-reverse}
 
 
-/* `flex-wrap` */ 
+/* `flex-wrap` */
 
 .fw-n {flex-wrap: nowrap}
 .fw-w {flex-wrap: wrap}
 .fw-wr {flex-wrap: wrap-reverse}
 
 
-/* `font-family` - declarative */ 
+/* `font-family` - declarative */
 
 .cursive {font-family: cursive}
 .emoji {font-family: emoji}
@@ -358,7 +360,7 @@
 
 /* `font-size` property - declarative , 0px ←→ 48px, in increments of 1px */
 /* `font-size` property - declarative , 0rem ←→ 2rem, in increments of 0.025rem */
-/* `font-size` property - declarative , 2rem ←→ 6rem, in increments of 0.25rem */ 
+/* `font-size` property - declarative , 2rem ←→ 6rem, in increments of 0.25rem */
 
 .\30 \.025rem {font-size: 0.025rem}
 .\30 \.05rem {font-size: 0.05rem}
@@ -508,14 +510,14 @@
 .\39 px {font-size: 9px}
 
 
-/* `font-style` - declarative */ 
+/* `font-style` - declarative */
 
 .italic {font-style: italic}
 .normal {font-style: normal}
 .oblique {font-style: oblique}
 
 
-/* `font-weight` - declarative */ 
+/* `font-weight` - declarative */
 
 .\31 00 {font-weight: 100}
 .\32 00 {font-weight: 200}
@@ -528,7 +530,7 @@
 .\39 00 {font-weight: 900}
 
 
-/* `height` property , 0% ←→ 100%, in increments of 5% */ 
+/* `height` property , 0% ←→ 100%, in increments of 5% */
 
 .h-0 {height: 0}
 .h-0\% {height: 0%}
@@ -554,7 +556,7 @@
 .h-95\% {height: 95%}
 
 
-/* `justify-content` */ 
+/* `justify-content` */
 
 .jc-c {justify-content: center}
 .jc-e {justify-content: end}
@@ -569,7 +571,7 @@
 .jc-s {justify-content: start}
 
 
-/* `justify-items` */ 
+/* `justify-items` */
 
 .ji-a {justify-items: auto}
 .ji-c {justify-items: center}
@@ -585,7 +587,7 @@
 
 
 /* `left` property , 0% ←→ 100%, in increments of 5% */
-/* `left` property , 0px ←→ 30px, in increments of 1px */ 
+/* `left` property , 0px ←→ 30px, in increments of 1px */
 
 .left-0 {left: 0}
 .left-0\% {left: 0%}
@@ -642,7 +644,7 @@
 .left-9px {left: 9px}
 
 
-/* `letter-spacing` property , 0ex ←→ 0.3ex, in increments of 0.01ex */ 
+/* `letter-spacing` property , 0ex ←→ 0.3ex, in increments of 0.01ex */
 
 .\30 \.01ex {letter-spacing: 0.01ex}
 .\30 \.02ex {letter-spacing: 0.02ex}
@@ -677,7 +679,7 @@
 .\30 ex {letter-spacing: 0ex}
 
 
-/* `line-height` property , 0 ←→ 3, in increments of 0.1 */ 
+/* `line-height` property , 0 ←→ 3, in increments of 0.1 */
 
 .lh-0 {line-height: 0}
 .lh-0\.1 {line-height: 0.1}
@@ -712,7 +714,7 @@
 .lh-3 {line-height: 3}
 
 
-/* `margin` property, 0px ←→ 30px, in increments of 1px */ 
+/* `margin` property, 0px ←→ 30px, in increments of 1px */
 
 .m-0 {margin: 0}
 .m-0px {margin: 0px}
@@ -872,37 +874,37 @@
 .mt-9px {margin-top: 9px}
 
 
-/* `opacity` property , 0% ←→ 100%, in increments of 5% */ 
+/* `opacity` property , 0 ←→ 1, in increments of 0.05 */
 
-.o-0\% {opacity: 0%}
-.o-10\% {opacity: 10%}
-.o-100\% {opacity: 100%}
-.o-15\% {opacity: 15%}
-.o-20\% {opacity: 20%}
-.o-25\% {opacity: 25%}
-.o-30\% {opacity: 30%}
-.o-35\% {opacity: 35%}
-.o-40\% {opacity: 40%}
-.o-45\% {opacity: 45%}
-.o-5\% {opacity: 5%}
-.o-50\% {opacity: 50%}
-.o-55\% {opacity: 55%}
-.o-60\% {opacity: 60%}
-.o-65\% {opacity: 65%}
-.o-70\% {opacity: 70%}
-.o-75\% {opacity: 75%}
-.o-80\% {opacity: 80%}
-.o-85\% {opacity: 85%}
-.o-90\% {opacity: 90%}
-.o-95\% {opacity: 95%}
+.o-0 {opacity: 0}
+.o-0\.05 {opacity: 0.05}
+.o-0\.1 {opacity: 0.1}
+.o-0\.15 {opacity: 0.15}
+.o-0\.2 {opacity: 0.2}
+.o-0\.25 {opacity: 0.25}
+.o-0\.3 {opacity: 0.3}
+.o-0\.35 {opacity: 0.35}
+.o-0\.4 {opacity: 0.4}
+.o-0\.45 {opacity: 0.45}
+.o-0\.5 {opacity: 0.5}
+.o-0\.55 {opacity: 0.55}
+.o-0\.6 {opacity: 0.6}
+.o-0\.65 {opacity: 0.65}
+.o-0\.7 {opacity: 0.7}
+.o-0\.75 {opacity: 0.75}
+.o-0\.8 {opacity: 0.8}
+.o-0\.85 {opacity: 0.85}
+.o-0\.9 {opacity: 0.9}
+.o-0\.95 {opacity: 0.95}
+.o-1 {opacity: 1}
 
 
-/* Combinatorial `outline` utility */ 
+/* Combinatorial `outline` utility */
 
 .outlined {outline-color: silver; outline-style: solid; outline-width: 1px}
 
 
-/* `padding` property, 0px ←→ 30px, in increments of 1px */ 
+/* `padding` property, 0px ←→ 30px, in increments of 1px */
 
 .p-0 {padding: 0}
 .p-0px {padding: 0px}
@@ -1062,7 +1064,7 @@
 .pt-9px {padding-top: 9px}
 
 
-/* `position` - declarative */ 
+/* `position` - declarative */
 
 .absolute {position: absolute}
 .absolute-fill {position: absolute; top: 0; right: 0; bottom: 0; left: 0}
@@ -1073,7 +1075,7 @@
 
 
 /* `right` property , 0px ←→ 30px, in increments of 1px */
-/* `right` property , 0% ←→ 100%, in increments of 5% */ 
+/* `right` property , 0% ←→ 100%, in increments of 5% */
 
 .right-0 {right: 0}
 .right-0\% {right: 0%}
@@ -1130,7 +1132,7 @@
 .right-9px {right: 9px}
 
 
-/* `text-align` */ 
+/* `text-align` */
 
 .ta-c {text-align: center}
 .ta-e {text-align: end}
@@ -1142,32 +1144,32 @@
 .ta-s {text-align: start}
 
 
-/* `text-decoration` */ 
+/* `text-decoration` */
 
 .td-lt {text-decoration: line-through}
 .td-o {text-decoration: overline}
 .td-u {text-decoration: underline}
 
 
-/* `text-decoration-line` */ 
+/* `text-decoration-line` */
 
 .tdl-lt {text-decoration-line: line-through}
 .tdl-o {text-decoration-line: overline}
 .tdl-u {text-decoration-line: underline}
 
 
-/* `text-decoration-style` */ 
+/* `text-decoration-style` */
 
 .tds-s {text-decoration-style: solid}
 .tds-w {text-decoration-style: wavy}
 
 
-/* `text-decoration-thickness` */ 
+/* `text-decoration-thickness` */
 
 .tdt-ff {text-decoration-thickness: from-font}
 
 
-/* `text-transform` */ 
+/* `text-transform` */
 
 .tt-c {text-transform: captitalize}
 .tt-fw {text-transform: full-width}
@@ -1176,7 +1178,7 @@
 
 
 /* `top` property , 0px ←→ 30px, in increments of 1px */
-/* `top` property , 0% ←→ 100%, in increments of 5% */ 
+/* `top` property , 0% ←→ 100%, in increments of 5% */
 
 .top-0 {top: 0}
 .top-0\% {top: 0%}
@@ -1233,7 +1235,7 @@
 .top-9px {top: 9px}
 
 
-/* `vertical-align` */ 
+/* `vertical-align` */
 
 .va-b {vertical-align: baseline}
 .va-m {vertical-align: middle}
@@ -1243,7 +1245,7 @@
 .va-t {vertical-align: top}
 
 
-/* `white-space` */ 
+/* `white-space` */
 
 .ws-n {white-space: nowrap}
 .ws-p {white-space: pre}
@@ -1251,7 +1253,7 @@
 .ws-pw {white-space: pre-wrap}
 
 
-/* `width` property , 0% ←→ 100%, in increments of 5% */ 
+/* `width` property , 0% ←→ 100%, in increments of 5% */
 
 .w-0 {width: 0}
 .w-0\% {width: 0%}
@@ -1277,7 +1279,7 @@
 .w-95\% {width: 95%}
 
 
-/* `z-index` property , 0 ←→ 1000, in increments of 100 */ 
+/* `z-index` property , 0 ←→ 1000, in increments of 100 */
 
 .z-0 {z-index: 0}
 .z-100 {z-index: 100}
