@@ -103,7 +103,7 @@ Will result in the following utility classes being applied to your element:
 .block {display: block}
 .monospace {font-family: monospace}
 .italic {font-style: italic}
-.700 {font-weight: 700}
+.\37 00 {font-weight: 700}
 .\31 8px {font-size: 18px}
 .absolute {position: absolute}
 ```
